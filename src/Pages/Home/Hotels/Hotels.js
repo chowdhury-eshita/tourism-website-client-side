@@ -10,7 +10,7 @@ const Hotels = () => {
     }, [])
     return (
         <div className="container mt-5">
-            <h2 className="text-center">Hotels and Resorts</h2>
+            <h2 className="text-center fw-bold text-warning">Hotels and Resorts</h2>
             <div className="row">
                 {
                     hotels.map(hotel => <Hotel

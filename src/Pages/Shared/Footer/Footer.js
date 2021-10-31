@@ -5,9 +5,9 @@ import './Footer.css';
 const Footer = () => {
     return (
         <>
-            <div className="footer pt-3">
+            <div className="footer pt-4">
                 <div>
-                    <h4 className="mt-5">Contact Us</h4>
+                    <h5>Contact Us:</h5>
                     <h3>Tour Mate</h3>
                     <p>KochuKhet, Dhaka</p>
                     <p className="text-success">Call: 304032</p>

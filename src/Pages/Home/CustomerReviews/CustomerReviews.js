@@ -10,7 +10,7 @@ const CustomerReviews = () => {
             .then(data => setReviews(data));
     }, [])
     return (
-        <div className="background my-5">
+        <div className="background mt-5">
             <div className="container py-5">
                 <h2 className="text-center text-white">Our Satisfied Customers Says</h2>
                 <div className="row">
