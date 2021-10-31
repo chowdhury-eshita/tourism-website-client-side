@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import Services from '../Home/Services/Services';
 import './MyOrders.css';
+import useAuth from '../../hooks/useAuth';
 
 const MyOrders = () => {
+    const { user } = useAuth();
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         fetch('http://localhost:5000/myOrders')
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [])
+
+    const admin = orders.filter(order => order.email === user.email);
 
     const handleDelete = id => {
         const url = `http://localhost:5000/myOrders/${id}`;
@@ -28,9 +31,9 @@ const MyOrders = () => {
     return (
         <div className="container mt-5">
             <h2 className="text-center my-3 pt-5">My Orders:</h2>
-            <div className="">
+            <div className="mb-5">
                 {
-                    orders.map(order => <div
+                    admin.map(order => <div
                         key={order.id}
                         className="orders p-3"
                     >

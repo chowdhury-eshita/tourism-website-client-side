@@ -2,7 +2,7 @@ import React from 'react';
 
 const Agency = () => {
     return (
-        <div className="container d-flex my-5">
+        <div className="container d-flex flex-wrap my-5">
             <img src="https://media.istockphoto.com/photos/travel-during-the-covid19-pandemic-airplane-model-with-face-mask-and-picture-id1268257924?b=1&k=20&m=1268257924&s=170667a&w=0&h=kviE-Bd4sAaGuHXJqdzxk__-URPKAZV6Zj7VpnuXges=" alt="" />
             <div className="ms-5">
                 <h1>The Best Travel Agency</h1>
