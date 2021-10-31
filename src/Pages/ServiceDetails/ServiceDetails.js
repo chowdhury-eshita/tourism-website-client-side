@@ -11,14 +11,14 @@ const ServiceDetails = () => {
     const { register, handleSubmit, reset } = useForm();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://scary-eyeballs-96536.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data));
     }, []);
 
     const onSubmit = (data) => {
         console.log(data)
-        axios.post(`http://localhost:5000/myOrders`, data)
+        axios.post(`https://scary-eyeballs-96536.herokuapp.com/myOrders`, data)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {

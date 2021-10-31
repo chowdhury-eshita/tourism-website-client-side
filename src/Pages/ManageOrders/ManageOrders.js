@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/myOrders')
+        fetch('https://scary-eyeballs-96536.herokuapp.com/myOrders')
             .then(res => res.json())
             .then(data => setOrders(data));
     }, [])
     const handleDelete = id => {
-        const url = `http://localhost:5000/myOrders/${id}`;
+        const url = `https://scary-eyeballs-96536.herokuapp.com/myOrders/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
