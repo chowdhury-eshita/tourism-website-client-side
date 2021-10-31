@@ -30,15 +30,15 @@ const MyOrders = () => {
     }
     return (
         <div className="container mt-5">
-            <h2 className="text-center my-3 pt-5">My Orders:</h2>
+            <h3 className="text-center fw-bold my-3 pt-5">My Orders:</h3>
             <div className="mb-5">
                 {
                     admin.map(order => <div
                         key={order.id}
                         className="orders p-3"
                     >
-                        <h2>{order.name}</h2>
-                        <h4>{order.email}</h4>
+                        <h3>{order.name}</h3>
+                        <h5>{order.email}</h5>
                         <h3>Place: {order.place}</h3>
                         <h4>Cost: {order.cost}</h4>
                         <button onClick={() => handleDelete(order._id)}>Remove Order</button>

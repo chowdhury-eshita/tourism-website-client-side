@@ -24,15 +24,15 @@ const ManageOrders = () => {
     }
     return (
         <div className="container mt-5">
-            <h2 className="text-center text-primary my-3 pt-5">All Orders:</h2>
+            <h3 className="text-center fw-bold my-3 pt-5">All Orders:</h3>
             <div className="mb-5">
                 {
                     orders.map(order => <div
                         key={order.id}
-                        className="p-3" style={{ backgroundColor: 'lightgoldenrodyellow' }}
+                        className="p-3" style={{ backgroundColor: 'lightgray' }}
                     >
-                        <h2>{order.name}</h2>
-                        <h4>{order.email}</h4>
+                        <h3>{order.name}</h3>
+                        <h5>{order.email}</h5>
                         <h3>Place: {order.place}</h3>
                         <h4>Cost: {order.cost}</h4>
                         <button onClick={() => handleDelete(order._id)}>Remove Order</button>
