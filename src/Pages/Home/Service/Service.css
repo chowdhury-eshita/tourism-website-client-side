@@ -1,0 +1,5 @@
+.card-style:hover{
+    box-shadow: 6px 6px 7px gray;
+    border-radius: 5px;
+    background-color:mistyrose;
+}
