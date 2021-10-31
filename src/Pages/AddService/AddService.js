@@ -23,7 +23,7 @@ const AddService = () => {
                 <textarea {...register('description', { required: true })} placeholder="Description" />
                 <input {...register('price')} placeholder="Price" />
                 <input {...register('img')} placeholder="img URL" />
-                <input type="submit" />
+                <input type="submit" value="ADD" />
             </form>
         </div>
     );
