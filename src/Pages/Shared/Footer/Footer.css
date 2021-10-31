@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    height: 350px;
+    color: lightgray;
+}
+.link-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}

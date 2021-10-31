@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Bali Resorts",
+        "cost": 500,
+        "img": "https://img.theculturetrip.com/450x/smart/wp-content/uploads/2021/02/cse_breakfast-in-bayugita-residence_0.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Diva Hotel",
+        "cost": 600,
+        "img": "https://miro.medium.com/max/868/1*sFNqxKEaQCQY9TVPbJPg7w.png"
+    },
+    {
+        "id": 3,
+        "name": "Cape Resort",
+        "cost": 550,
+        "img": "https://media.dertouristik.com/exports/KuoniUK/ListPhotosLarge/376665_ListPhotosLarge.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Paradies Resort",
+        "cost": 600,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJMxNawkUoFqhBcayrMjNN3Tadw_0mmyecudqcoGXDkE5RJ2itjtDk4Y8jlQE82y_jenU&usqp=CAU"
+    }
+]

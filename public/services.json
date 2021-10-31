@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Bali, Indonesia",
+        "cost": 5000,
+        "description": " Bali is pretty safe to visit for all sorts of travellers. The island is so well-trodden and inhabited by such friendly and helpful people, that it's one of the safest places in Southeast Asia to travel around.",
+        "img": "https://www.viceroybali.com/wp-content/uploads/2020/08/viceroy-bali-main-pool-evening.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Maldives",
+        "cost": 6000,
+        "description": "This tropical nation in the Indian Ocean is made up of more than 1,000 coral islands. It’s home to some of the world’s most luxurious hotel resorts, with white sandy beaches, underwater villas and restaurants and bright blue waters.",
+        "img": "https://content.api.news/v3/images/bin/b28b4dfc40fe1792bb954c48eba6e4d1"
+    },
+    {
+        "id": 3,
+        "name": "Cape Town, South Africa",
+        "cost": 5500,
+        "description": "Famous for its sun, sea and scenery, Cape Town is a beloved tourist destination for visitors the world over. ... This is just one example of Cape Town's fantastic tourism offerings, and while we may be a little bias to our very own Mother City, the opinion of over 40 000 Daily Telegraph readers should hold some swing.",
+        "img": "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/africa/south-africa/cape-town/destinations-south-africa-cape-town-banner-mobile-1024x553.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Marrakesh, Morocco",
+        "cost": 6000,
+        "description": "This ancient walled city is home to mosques, palaces and lush gardens. It’s known as The Red City thanks to the color of the brick walls surrounding the city. The medina is a UNESCO World Heritage Centre.",
+        "img": "http://images6.fanpop.com/image/photos/43200000/Marrakesh-Morocco-morocco-43284406-900-629.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Paro Valley, Bhutan",
+        "cost": 3000,
+        "description": "Paro Valley is known for its monasteries, fortresses (or dzongs) and dramatic landscapes. Tucked between China and India, Bhutan is a mysterious country that prides itself on sustainable tourism. You’ll find Paro Taktsang here, a Himalayan Buddhist sacred site.",
+        "img": "https://www.andbeyond.com/wp-content/uploads/sites/5/tigers-nest-bhutan1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Paris, France",
+        "cost": 7000,
+        "description": "One of the most iconic cities in the world, Paris tops many people’s bucket lists. You’ll see so many famous landmarks here: the Eiffel Tower, Arc de Triomphe, Notre Dame cathedral—the list is never-ending.",
+        "img": "https://d1ix9yerv4y8lr.cloudfront.net/blog/wp-content/uploads/2021/06/GettyImages-514717188.jpg"
+    }
+]

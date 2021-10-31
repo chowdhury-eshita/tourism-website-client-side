@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "description": " Lisa & the team were very fast and efficient in responding to any emails and also with updating me with my travel itinerary, etc. Loved being able yo book everything in the one place, in one transaction. I will most definitely be using Travel Online for my holiday bookings again in the future!",
+        "img": "https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI"
+    },
+    {
+        "id": 2,
+        "name": "June Tognolini",
+        "description": "We had a fantastic time on Hayman Island and it was so easy to book this holiday with TravelOnline. It was also cheaper than other quotes I had for the same holiday. I highly recommend booking with TravelOnline and we will be using them again for future holidays. Ann -QLD",
+        "img": "https://mybroadband.co.za/news/wp-content/uploads/2021/03/Marius-Reitz-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ed Simkins",
+        "description": "Our booking was very easy to do online, I needed to make a few changes that I felt was not handled well at all. Once I spoke to the Team Manager, he was absolutely amazing. Couldn't do enough to sort our issue out. Went way above a 5 star service. More then happy to use snd recommend this company.",
+        "img": "https://i.pinimg.com/originals/d7/ed/81/d7ed8106ea7a15151abd200b2abb1599.jpg"
+    }
+]
