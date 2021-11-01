@@ -26,9 +26,14 @@ const Header = () => {
                     </Navbar.Text>
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link className="nav" as={Link} to="/home">Home</Nav.Link>
-                        <Nav.Link className="nav" as={Link} to="/addService">Add Service</Nav.Link>
-                        <Nav.Link className="nav" as={Link} to="/myOrders">My Oders</Nav.Link>
-                        <Nav.Link className="nav" as={Link} to="/manageOrders">Manage Orders</Nav.Link>
+                        {user?.email ?
+                            <>
+                                < Nav.Link className="nav" as={Link} to="/addService">Add Service</Nav.Link>
+                                <Nav.Link className="nav" as={Link} to="/myOrders">My Oders</Nav.Link>
+                                <Nav.Link className="nav" as={Link} to="/manageOrders">Manage Orders</Nav.Link> </> :
+                            ''
+                        }
+
                         <Nav.Link className="nav" as={Link} to="/about">About</Nav.Link>
                         {user?.email ?
                             <Button onClick={logOut} variant="primary">Logout</Button> :
@@ -37,7 +42,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </div>
+        </div >
     );
 };
 

@@ -4,8 +4,10 @@ import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import { useParams } from 'react-router';
 import './ServiceDetails.css';
+import useAuth from '../../hooks/useAuth';
 
 const ServiceDetails = () => {
+    const { user } = useAuth();
     const { serviceId } = useParams();
     const [service, setService] = useState({});
     const { register, handleSubmit, reset } = useForm();
@@ -43,11 +45,11 @@ const ServiceDetails = () => {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register('place')} placeholder="Place" />
                     <input {...register('cost')} placeholder="Cost" />
-                    <input {...register('name', { required: true })} placeholder="Name" />
-                    <input {...register('email', { required: true })} placeholder="Email" />
+                    <input {...register('name', { required: true })} value={user.displayName} />
+                    <input {...register('email', { required: true })} value={user.email} />
                     <input {...register('phone', { required: true })} placeholder="Phone" />
                     <textarea {...register('address', { required: true })} placeholder="Address" />
-                    <input type="submit" />
+                    <input className="btn btn-primary" type="submit" />
                 </form>
             </div>
         </div>

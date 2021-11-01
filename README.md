@@ -1,7 +1,7 @@
 # Tour Mate
 
 ### Live Site:(https://tour-mate-19629.web.app/)
-### Server Site Code:(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-chowdhury-eshita)
+### Server Side Code:(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-chowdhury-eshita)
 
 ## Description:
 - This is a Travel Agency website.

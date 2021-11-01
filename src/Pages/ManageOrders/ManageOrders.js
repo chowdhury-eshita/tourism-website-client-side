@@ -32,10 +32,9 @@ const ManageOrders = () => {
                         className="p-3" style={{ backgroundColor: 'lightgray' }}
                     >
                         <h3>{order.name}</h3>
-                        <h5>{order.email}</h5>
-                        <h3>Place: {order.place}</h3>
-                        <h4>Cost: {order.cost}</h4>
-                        <button onClick={() => handleDelete(order._id)}>Remove Order</button>
+                        <h6 className="text-primary">{order.email}</h6>
+                        <h4>Place: <strong>{order.place}</strong></h4>
+                        <button className="btn btn-outline-danger" onClick={() => handleDelete(order._id)}>Remove Booking</button>
                     </div>)
                 }
             </div>

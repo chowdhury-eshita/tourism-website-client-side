@@ -39,13 +39,13 @@ const MyOrders = () => {
                     >
                         <h3>{order.name}</h3>
                         <h5>{order.email}</h5>
-                        <h3>Place: {order.place}</h3>
+                        <h4>Place: <strong>{order.place}</strong></h4>
                         <h4>Cost: {order.cost}</h4>
-                        <button onClick={() => handleDelete(order._id)}>Remove Order</button>
+                        <button className="btn btn-outline-danger" onClick={() => handleDelete(order._id)}>Cancel Booking</button>
                     </div>)
                 }
             </div>
-        </div>
+        </div >
     );
 };
 
